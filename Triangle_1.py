@@ -53,7 +53,7 @@ def classifyTriangle(a,b,c):
         return 'Equilateral'
     elif ((a ** 2) + (b ** 2) == (c ** 2)) or ((a**2)+(c**2)==(b**2)) or ((b**2)+(c**2)==(a**2)): #corrected right angle triangle logic
         return 'Right'
-    elif (a != b) and  (b != c) and (a != c): #Fixed Isoceles triangle logic
+    elif (a != b) and  (b != c) and (a != c): #Fixed Scalene triangle logic by keeping the original logic intact
         return 'Scalene'
     else:
         return 'Isoceles'
